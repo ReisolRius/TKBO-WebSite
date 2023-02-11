@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link type="Image/x-icon" href="img/N.ico" rel="icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="load-container">
+        <div class="flex-column">
+            <h1 class="loader-h1">Пожалуйста подождите...</h1>
+            <div style="text-align: center;">
+                <p class="under-loader">Никто не хочет сыграть в авокадо?</p>
+            </div>
+            <div class="loader flex-column">
+                <div class="load-line flex-row">
+                    <div id="line" class="load-line-progress"> <img id="left-img" class="left" src="#" alt=""> </div>
+                    <img id="right-img" class="right" src="#" alt="">
+                </div>
+                <div class="flex-row">
+                    <h1 id="percent" class="loader-h11">0</h1><h1 class="loader-h11">%</h1>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="wrapper">
+        <header>
+            <img src="img/N.svg" alt="" class="logo">
+            <a class="active" href="#">Главная</a>
+            <a href="pages/albom.html">Альбом</a>
+            <a href="#">Лекции</a>
+            <a href="#">Даты</a>
+            <a href="#">Авторы</a>
+        </header>
+        <div id="menu-button" class="menu">
+            <p>Меню</p>
+        </div>
+        <div id="mobile-header" class="header">
+            <img src="img/N.svg" alt="" class="logo">
+            <a class="active" href="#">Главная</a>
+            <a href="pages/albom.html">Альбом</a>
+            <a href="#">Лекции</a>
+            <a href="#">Даты</a>
+            <a href="#">Авторы</a>
+        </div>
+        <div class="flex-row-main">
+            <div class="flex-column-main">
+                <div class="slider">
+                    <div class="slider__item">
+                        <img class="slider-img" src="img/slider-img.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider-img" src="img/slider-img.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider-img" src="img/slider-img.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider-img" src="img/slider-img.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider-img" src="img/slider-img.png" alt="">
+                    </div>
+                </div>
+                <div class="grid">
+
+                    <div class="news-block">
+                        <div class="text">
+                            <div class="name">Алексей</div>
+                            <div class="second-name"> Гигочадович</div>
+                        </div>
+                        <img src="img/coffe.png" alt="">
+                    </div>
+                    <div class="news-block">
+                        <div class="text">
+                            <div class="name">Алексей</div>
+                            <div class="second-name"> Гигочадович</div>
+                        </div>
+                        <img src="img/coffe.png" alt="">
+                    </div>
+                    <div class="news-block">
+                        <div class="text">
+                            <div class="name">Алексей</div>
+                            <div class="second-name"> Гигочадович</div>
+                        </div>
+                        <img src="img/coffe.png" alt="">
+                    </div>
+                    <div class="news-block">
+                        <div class="text">
+                            <div class="name">Алексей</div>
+                            <div class="second-name"> Гигочадович</div>
+                        </div>
+                        <img src="img/coffe.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex-column" style="width: 29%;">
+                <div class="citata">
+                <img src="img/LehaCitata.png" alt="" style="width: 100%;">
+                <h1>Зачем Исусу 3д принтер? “Да я и сам не знаю.” <br> ©Исус</h1>
+                </div>
+            </div>
+    </div>
+        <footer>
+            <img src="img/N.svg" alt="">
+        </footer>
+    </div>
+    <script src="loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="slider.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
